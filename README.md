@@ -1,1 +1,1 @@
-# ProgrammingC-Pluse-Devition-Into.Number
+# ProgrammingC-Sum-Float-average.Number
