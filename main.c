@@ -1,73 +1,84 @@
 
-// Deferents Number Of Sum --------
+// Deferents Number Of Sum , into , Devision --------
 
-         #include<stdio.h>
+          #include<stdio.h>
           int main(){
 
-          int num1,num2,sum;
+          int num1,num2,result;
           printf("Enter a Number: ");
           scanf("%d %d",&num1,&num2);
 
-          sum = num1 + num2;
-          printf("The Number is: %d\n",sum);
+           result = num1 + num2;
+          printf(" Sum is: %d\n",result);
+
+            result = num1 - num2;
+          printf(" Minus is: %d\n",result);
+
+
+            result = num1 * num2;
+          printf(" into is: %d\n",result);
+
+
+            result = num1 / num2;
+          printf(" Devision is: %d\n",result);
+
+            result = num1 % num2;
+          printf(" Multiple  is: %d\n",result);
 
           return 0;
        }
     
 
+     // Floating average Number -----------------
 
-// DEferents Numbers of Minus --------
 
+          #include<stdio.h>
 
-           #include<stdio.h>
-            int main(){
+          int main()
+          {
 
-            int num1,num2,result;
+            int num1,num2,sum;
+            float avg;
             printf("Enter a Number: ");
             scanf("%d %d",&num1,&num2);
 
-            result = num1 - num2;
-            printf("The Number is: %d\n",result);
+            sum = num1 + num2;
+            printf("The sum is : %d\n",sum);
+
+            avg = (float)sum/2;
+            printf("The average is = %f\n",avg);
 
             return 0;
-         }
+          }
 
 
-  // Deferents Numbers of Into ---------
+        
+          // Float is Two Character -------------------
 
+             
+              
+          #include<stdio.h>
 
-             #include<stdio.h>
-            int main(){
+          int main()
+          {
 
-            int num1,num2,result;
+            int num1,num2,sum;
+            float avg;
             printf("Enter a Number: ");
             scanf("%d %d",&num1,&num2);
 
-            result = num1 * num2;
-            printf("The Number is: %d\n",result);
+            sum = num1 + num2;
+            printf("The sum is : %d\n",sum);
+
+            avg = (float)sum/2;
+            printf("The average is = %.2f\n",avg);
 
             return 0;
+          }
 
-            }
             
 
-    // Deferents Number of Devition --------
 
 
-              #include<stdio.h>
-            int main(){
 
-            int num1,num2,result;
-            printf("Enter a Number: ");
-            scanf("%d %d",&num1,&num2);
-
-            result = num1 / num2;
-            printf("The Number is: %d\n",result);
-
-            return 0;
-
-            }       
-
-
-            // Ends ---------------------
 
